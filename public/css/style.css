@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(to left bottom, lightblue, lightpink, lightblue);
+    min-height: 100vh;
+    }
+    .patent{
+        /* text-align: center; */
+        /* background-color: blueviolet;
+        padding: 20px;
+        box-shadow: 06px 10px rgba(0, 0, 0, .3);
+        border-radius: 25px;
+        width: 85%;
+        color: green; */
+    }
+    .child{
+        text-align: center;
+        background-color: #FFBE98;
+        padding: 20px;
+        box-shadow: 06px 10px rgba(0, 0, 0, .3);
+        border-radius: 25px;
+        width: 85%;
+        color: black;
+    }
