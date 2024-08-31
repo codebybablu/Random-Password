@@ -21,5 +21,20 @@
     @endif
     </div>    
 </div>
+
+{{-- <div class="parent">
+    <div class="child">
+    <h2>Recent Passwords History</h2>
+    <ul> --}}
+        {{-- @if(count($passwords) == 1) --}}
+        {{-- @foreach($passwords as $password)
+            <li>{{ $password->password }}</li>
+        @endforeach --}}
+        {{-- @else
+        <li>No passwords generated yet.</li>
+    @endif --}}
+    {{-- </ul>
+    </div>
+</div> --}}
 </body>
 </html>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\HistoryPassword;
 
 class PasswordController extends Controller
 {
@@ -16,10 +17,14 @@ class PasswordController extends Controller
             $password .= $characters[rand(0, strlen($characters) - 1)];
         }
 
+        // HistoryPassword::create([
+        //     'password' => $password,
+        //     'generated_at' => now(),
+        // ]);
+
+        // $passwords = HistoryPassword::orderBy("generated_at","desc")->paginate(5);
+        // inside compact add this ('password','passwords)
         return view('password', compact('password'));
 
     }
-
-    
-
 }
